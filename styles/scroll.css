@@ -1,0 +1,20 @@
+/* trilho do scroll */
+::-webkit-scrollbar {
+  width: 12px; /* largura da barra */
+}
+
+/* parte de fundo (trilho) */
+::-webkit-scrollbar-track {
+  background: #000302; /* cor de fundo */
+}
+
+/* "thumb" – a parte que arrasta */
+::-webkit-scrollbar-thumb {
+  background: #2ed667; /* cor do thumb */
+  border-radius: 6px; /* bordas arredondadas */
+}
+
+/* thumb ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #0c8133;
+}
