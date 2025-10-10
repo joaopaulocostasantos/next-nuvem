@@ -277,7 +277,7 @@
           </p>
 
           <div class="option-plans-monthly-annual" id="option-plans-monthly-annual">
-            <div class="option-plans-monthly active" id="option-plans-monthly">Mensal</div>
+            <div class="option-plans-monthly active-plans" id="option-plans-monthly">Mensal</div>
             <div class="option-plans-annual" id="option-plans-annual">Anual + 15%Off</div>
           </div>
 
@@ -610,50 +610,85 @@
         <div class="title-feedbacks">
           <h3><span>Depoimentos</span> de quem já <br> hospeda com a gente</h3>
           <div class="arrows-feedbacks">
-            <div class="arrow-left">
+            <div class="arrow-left-prev" id="prev-btn">
               <i class="fa-solid fa-chevron-left"></i>
             </div>
-            <div class="arrow-right">
+            <div class="arrow-right-next" id="next-btn">
               <i class="fa-solid fa-chevron-right"></i>
             </div>
           </div>
         </div>
 
-        <div class="slides-feedbacks">
-          <div class="card-feedback">
-            <video controls poster="assets/images/img-slide-01.png">
-              <source src="assets/videos/freepik__pode-deixar-esse-video-com-416-de-largura__89549.mp4" type="video/mp4">
-            </video>
-
-            <div class="card-desc-feedback">
-              <h4>Leandro Cardoso</h4>
-              <span class="line-desc-feedback"></span>
-              <p>Header de Marketing</p>
+        <div class="container-slider">
+          <div class="slides">
+            <!-- slider 01 -->
+            <div class="slider">
+              <video src="assets/videos/video-slide-01.mp4" class="slider-video" ></video>
+              <div class="slider-desc">
+                <h4>Leandro Cardoso</h4>
+                <div class="slider-line"></div>
+                <p>Header de Marketing</p>
+              </div>
             </div>
-          </div>
-          <div class="card-feedback">
-            <video controls>
-              <source src="assets/videos/video-feedback-02.mp4" type="video/mp4">
-            </video>
+            <!-- slider 01 -->
 
-            <div class="card-desc-feedback">
-              <h4>Marcos Alves</h4>
-              <span class="line-desc-feedback"></span>
-              <p>SEO e Publicitário</p>
+            <!-- slider 02 -->
+            <div class="slider">
+              <video src="assets/videos/video-slide-02.mp4" class="slider-video" ></video>
+              <div class="slider-desc">
+                <h4>Marcos Alves</h4>
+                <div class="slider-line"></div>
+                <p>SEO e Publicitário</p>
+              </div>
             </div>
-          </div>
-          <div class="card-feedback">
-            <video controls>
-              <source src="assets/videos/video-feedback-03.mp4" type="video/mp4">
-            </video>
+            <!-- slider 02 -->
 
-            <div class="card-desc-feedback">
-              <h4>Eduarda Melo</h4>
-              <span class="line-desc-feedback"></span>
-              <p>Web Designer</p>
+            <!-- slider 03 -->
+            <div class="slider">
+              <video src="assets/videos/video-slide-03.mp4" class="slider-video" ></video>
+              <div class="slider-desc">
+                <h4>Eduarda Melo</h4>
+                <div class="slider-line"></div>
+                <p>Web Designer</p>
+              </div>
             </div>
+            <!-- slider 03 -->
+
+             <!-- slider 04 -->
+            <div class="slider">
+              <video src="assets/videos/video-slide-04.mp4" class="slider-video" ></video>
+              <div class="slider-desc">
+                <h4>Leandro Cardoso</h4>
+                <div class="slider-line"></div>
+                <p>Header de Marketing</p>
+              </div>
+            </div>
+            <!-- slider 04 -->
+
+            <!-- slider 05 -->
+            <div class="slider">
+              <video src="assets/videos/video-slide-05.mp4" class="slider-video" ></video>
+              <div class="slider-desc">
+                <h4>Marcos Alves</h4>
+                <div class="slider-line"></div>
+                <p>SEO e Publicitário</p>
+              </div>
+            </div>
+            <!-- slider 05 -->
+
+            <!-- slider 06 -->
+            <div class="slider">
+              <video src="assets/videos/video-slide-06.mp4" class="slider-video" ></video>
+              <div class="slider-desc">
+                <h4>Eduarda Melo</h4>
+                <div class="slider-line"></div>
+                <p>Web Designer</p>
+              </div>
+            </div>
+            <!-- slider 06 -->
           </div>
         </div>
+
       </section>
       <!-- section feedbacks -->
       <!-- section recursos nextnuvem -->
@@ -913,5 +948,6 @@
     <!-- scripts -->
     <script src="scripts/plans.js"></script>
     <script src="scripts/faq.js"></script>
+    <script src="scripts/slides.js"></script>
   </body>
 </html>

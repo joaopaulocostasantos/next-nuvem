@@ -20,8 +20,8 @@ optionPlansMonthly.addEventListener("click", () => {
   planValueIntermediario.innerHTML = "39";
   planValueAvancado.innerHTML = "99";
 
-  optionPlansMonthly.classList.add("active");
-  optionPlansAnnual.classList.remove("active");
+  optionPlansMonthly.classList.add("active-plans");
+  optionPlansAnnual.classList.remove("active-plans");
 
   optionPlansMonthly.style.color = "#fff";
   optionPlansAnnual.style.color = "#2ed667";
@@ -33,8 +33,8 @@ optionPlansAnnual.addEventListener("click", () => {
   planValueIntermediario.innerHTML = "19";
   planValueAvancado.innerHTML = "38";
 
-  optionPlansAnnual.classList.add("active");
-  optionPlansMonthly.classList.remove("active");
+  optionPlansAnnual.classList.add("active-plans");
+  optionPlansMonthly.classList.remove("active-plans");
 
   optionPlansAnnual.style.color = "#fff";
   optionPlansMonthly.style.color = "#2ed667";
